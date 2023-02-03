@@ -5,6 +5,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 .container-header {
     margin: 5px;
     background-image: url(../img/design1_image1.jpg);
@@ -71,12 +72,12 @@ a:hover {
 }
 
 .container-main {
-    height: 75vh;
+    height: 100vh;
     margin: 5px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     object-fit: scale-down;
 }
 
@@ -112,20 +113,11 @@ td {
     margin: 10px;
 }
 
-
-aside {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 5px;
-    font-size: larger;
-}
-
 footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+    object-fit: scale-down;
 }
