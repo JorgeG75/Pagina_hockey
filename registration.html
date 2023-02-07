@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/Logo_Mighty_ducks-01.png" type="image/png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styleFree.css">
+        <title>REGISTRATION</title>
+    </head>
 <body>
-    
+    <header class="container-header">
+
+        <h1 class="container-name">
+            Mighty Ducks Hockey League
+        </h1>
+
+        <img id="logo" src="img/Logo_Mighty_ducks-01.png" alt="Logo de la liga de hockey" width="100">
+
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About MDHL</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./game_info.html">Game information</a>
+            <a href="./rules.html">Rules</a>
+            <a href="#">Registration</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>
+            Registration Form
+        </h2>
+
+        <form action="" method="get">
+            <fieldset>
+
+                <legend>Player´s</legend>
+
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname">
+
+                <!-- El Lastname con distinta forma de relacionar el input -->
+
+                <label>
+                    Last Name:
+                    <input type="text" name="lastname" id="lastname">
+                </label>
+
+                <label for="birthdate">Birth Date:</label>
+                <input type="date" name="birthdate" id="birthdate">
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Address</legend>
+
+                <label for="streetaddress">Street Address:</label>
+                <input type="text" name="streetaddress" id="streetaddress">
+
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city">
+
+                <label for="zipcode">Zip Code:</label>
+                <input type="number" name="zipcode" id="zipcode">
+            </fieldset>
+
+            <fieldset>
+                <legend>Gender</legend>
+                <label for="gender">Famale</label>
+                <input type="radio" name="gender" id="gender" value="famale">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender" value="male">
+            </fieldset>
+
+            <fieldset>
+
+                <legend>School Grade</legend>
+
+                <label for="grade">Pre-school</label>
+                <input type="checkbox" name="grade" id="grade" value="Pre-school">
+                <label for="grade">1st</label>
+                <input type="checkbox" name="grade" id="grade" value="1st">
+                <label for="grade">2st</label>
+                <input type="checkbox" name="grade" id="grade" value="2st">
+                <label for="grade">3st</label>
+                <input type="checkbox" name="grade" id="grade" value="3st">
+                <label for="grade">4st</label>
+                <input type="checkbox" name="grade" id="grade" value="4st">
+                <label for="grade">5st</label>
+                <input type="checkbox" name="grade" id="grade" value="5st">
+                
+            </fieldset>
+
+        </form>
+
+
+
+
+    </main>
 </body>
 </html>
