@@ -121,3 +121,9 @@ footer {
     flex-wrap: wrap;
     object-fit: scale-down;
 }
+
+.maps {
+    margin: 2px;
+    display: flex;
+    display: inline;
+}
